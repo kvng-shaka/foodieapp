@@ -37,7 +37,7 @@
                     <div class="blog-text">
                         <div class="blog-title">
                             <h2>{{$post->title}}</h2>
-                            <span>written by {{$post->user->name}} on {{$post->created_at}}</span>
+                            <span>posted by {{$post->user->name}} on {{$post->created_at}}</span>
                             &nbsp;
                             
                         </div>
